@@ -1,0 +1,9 @@
+{
+	"name": "databricks-orchestration",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "386b50c4-ce3f-4123-9560-bf89b8402712",
+		"tenantId": "609ea536-dbdf-4d28-a209-e6568275ab6d"
+	}
+}
