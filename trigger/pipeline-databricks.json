@@ -1,0 +1,24 @@
+{
+	"name": "pipeline-databricks",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "datalake-etl",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2023-07-13T09:24:00",
+				"timeZone": "E. South America Standard Time"
+			}
+		}
+	}
+}
