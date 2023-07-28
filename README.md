@@ -6,7 +6,6 @@ Este é um projeto de demonstração sobre como utilizar o Azure Data Factory (A
 O objetivo deste projeto é mostrar como o Azure Data Factory pode ser utilizado para criar fluxos de trabalho ELT que envolvem a extração de dados de fontes externas, o processamento e transformação desses dados usando notebooks do Azure Databricks e, finalmente, o carregamento dos dados transformados em destinos desejados, como o Azure SQL Database ou o Azure Data Lake Gen2.
 
 ### Pré-requisitos
-Antes de começar a trabalhar com este projeto, certifique-se de ter o seguinte:
 
 1. Conta do Azure: Você precisa ter uma conta ativa do Microsoft Azure para criar e configurar os recursos necessários.
 
